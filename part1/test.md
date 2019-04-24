@@ -23,7 +23,7 @@
    - Container Component - component that manages the data that will be used on the presentational component, usually this is the one that access the data from a redux store or just simply that component that initializes the state of the component
      Presentational Component - the one that just renders the html, its data is just coming from the props given by the container Component
 9. How to pass a function to a component?
-   Not sure exactly what is the question specifies to but if were talking about passing function as props to a component. heres an example
+   - Not sure exactly what is the question specifies to but if were talking about passing function as props to a component. heres an example
    ```js
    const customFunction = () => {
      console.log('this is my function')
